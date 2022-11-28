@@ -7,6 +7,11 @@ These commands will need to be ran within a GCP project of your choosing.
 ### Prerequisite
 - A GCP project has been set up
 - A Firebase project has been set up and linked to project made in GCP
+- Shell github
+   ```
+   git config --global user.email "you@example.com"
+   git config --global user.name "Your Name"
+   ```
 ### Installation
 1. Open the Google Cloud Shell
 2. Create bucket 
