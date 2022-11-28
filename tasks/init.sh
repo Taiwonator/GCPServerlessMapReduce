@@ -29,7 +29,7 @@ gcloud functions deploy $MAP \
     --runtime=nodejs16 \
     --region=europe-west2 \
     --source=. \
-    --entry-point=src/functions/map.js \
+    --entry-point=map \
     --trigger-bucket=gs://$BUCKET_NAME \
     --allow-unauthenticated \
     --max-instances=$MAPPER_COUNT

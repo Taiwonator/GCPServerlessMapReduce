@@ -1,0 +1,8 @@
+{
+  "name": "GCPServerlessMapReduce",
+  "version": "0.0.1",
+  "main": "map.js",
+  "repository": "git@github.com:Taiwonator/GCPServerlessMapReduce.git",
+  "author": "Taiwonator <22432591+Taiwonator@users.noreply.github.com>",
+  "license": "MIT"
+}
