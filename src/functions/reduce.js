@@ -4,7 +4,7 @@
  * @param {!Object} event Event payload.
  * @param {!Object} context Metadata for the event.
  */
-exports.map = (event, context) => {
+exports.reduce = (event, context) => {
   const message = event.data ? Buffer.from(event.data, 'base64').toString() : '';
   console.log('(reducer) I am a reducer function', message);
 };

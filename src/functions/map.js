@@ -10,10 +10,9 @@
 // };
 
 // MAPPER L1 - READS AND SPLITS FILE FOR NEXT LAYER MAPPERS
+var fs = require('fs');
 
 exports.map = function() {
-    var fs = require('fs');
-
     try {  
         const data = fs.readFileSync('test-book.txt', 'utf8').split(/\r?\n/); // read
         const splitData = splitArray(data, 1); // split data
