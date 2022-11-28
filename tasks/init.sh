@@ -28,7 +28,7 @@ gcloud functions delete $MAP --region europe-west2 --no-user-output-enabled --qu
 gcloud functions deploy $MAP \
     --runtime=nodejs16 \
     --region=europe-west2 \
-    --source=./src/functions \
+    --source=. \
     --entry-point=map \
     --trigger-bucket=gs://$BUCKET_NAME \
     --allow-unauthenticated \
